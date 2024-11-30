@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Dimaano E-Portfolio</title>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
+</head>
+<body>
+<hr>
+<h1>Images</h1>
+<hr>
+<a href="index.html">Back to Navigation</a>
+<br>
+<hr>
+
+<hr>
+<p>Background image citation: <a href="https://ph.pinterest.com/pin/2814818510746905/" >Pinterest Source</a></p>
+</body>
+</html>

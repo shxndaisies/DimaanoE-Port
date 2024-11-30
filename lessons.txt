@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>Dimaano E-Portfolio</title>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
+</head>
+<body>
+<hr>
+<h1>Lessons</h1>
+<hr>
+<a href="index.html">Back to Navigation</a>
+<br>
+<hr>
+<div>
+<h3>Lesson 1&2</h3>
+<p>CSS is an important part of a website. Cascading Style Sheet or CSS is a programming language that is used with HTML. It makes web design easier by letting us control multiple web page designs using one external CSS file. Webpages have 3 layers that each have their own purpose. The content layer is the main content, the presentation layer is managed by CSS, and the behavior layer defines how it works. CSS is capable of many things such as making updates and layering easier. You can also save more time using CSS. CSS can be applied to HTML or XHTML using three methods: linked, embedded, and inline. Linked CSS is in a different file, embedded is contained in the head, and inline is within the body.</p>
+<a href="Q2L12.pdf">Want to know more?</a>
+<h3>Lesson 3</h3>
+<p>There are many things to remember in CSS. We should ensure the proper punctuation and white space. There are 6 groups of style properties, fonts, colors and backgrounds, text, boxes and layout, lists, and tag classification. There are five different possible categories of values, keywords, length values, percentage values, url, and color. There are 2 kinds of element, block level and inline. CSS selectors are used to select the HTML elements you want to style. We can divide CSS selectors into types, element selector, ID selector, class selector, universal selector, group selector, and attribute selector. A class is a user defined selector that are defined by dots. ID selector is a style applied to one element in a page. </p>
+<a href="Q2L3.pdf">Want to know more?</a>
+<h3>Lesson 4</h3>
+<p> The display property allows you to control how an element is displayed. Block level is laid out vertically and uses the div tag, while inline level is laid out horizontally and uses the span tag.</p>
+<a href="Q2L4.pdf">Want to know more?</a>
+<h3>Lesson 5</h3>
+<p>When you have multiple selectors, you can use a comma to separate them. You can also use a style for a selector within a selector. Pseudo-classes are defined by a colon and not user defined. The anchor element has four pseudo-classes which are link, visited, hover and active. Take note of LVHA or link, visited, hover, active which states the order.</p>
+<a href="Q2L5.pdf">Want to know more?</a>
+<h3>Lesson 6</h3>
+<p>This lesson talks about formatting text with CSS.<br>
+<br>
+Typography:<br>
+font-family - Indicates the typeface<br>
+font-style - Indicates if text is written in italics, oblique or normally<br>
+font-weight - Indicates the thickness of the characters. <br>
+font-size - Indicates the size of the text.<br>
+font-variant - Used to do small-caps<br>
+text-align - Indicates the alignment<br>
+text-decoration - Indicates the decoration applied<br>
+text-transform - Indicates the case of the text<br>
+text indent - Indicates the spacing taken up by each line<br>
+line-height - Indents the first line of each paragraph<br>
+<br>
+CSS List Properties: <br>
+list-style-type - Indicates the type of bullet. <br>
+list-style-image - Indicates the image to be used as bullet.<br>
+list-style-position - Indicates the position of the marker.<br>
+line-style - Shorthand notation for all the properties for lists.<br>
+<br>
+Types of bullets:<br>
+disc – round bullets<br>
+circle – circular bullets<br>
+square – square bullets<br>
+decimal – regular numbering (1,2,3,4,etc.)<br>
+decimal-leading-zero – for regular numbering with leading zeroes (01,02,03,04, etc.)<br>
+lower-roman – for lowercase Roman numeral<br>
+upper-roman – for uppercase Roman numeral<br>
+lower-alpha – lowercase alphabet<br>
+upper-alpha – uppercase alphabet<br>
+<br>
+CSS Pseudo Elements: <br>
+:link - Selects all unvisited links.<br>
+:visited - Selects all visited links.<br>
+:active - Selects the active link.<br>
+:hover - Selects links on mouse over.<br>
+:focus - Selects the input element which has focus.<br>
+:first-letter - Selects the first letter of every chosen element<br>
+:first-line - Selects the first line of every chosen element<br>
+:before - Inserts content before every chosen element.<br>
+:after - Inserts content after every chosen element.<br>
+</p>
+<a href="Q2L6.pdf">Want to know more?</a>
+<h3>Lesson 7</h3>
+<p>This lesson talks about formatting layout with CSS.<br>
+The CSS box model is a box that wraps around every HTML element. It has content, padding, borders and margins. <br>
+CSS Position Property: Position property allows placing an object or element precisely on a page. <br>
+position: static - The default or normal position of an object if one would not specify a position.<br>
+position: relative - The position of the box relative to where the default or normal position of an object.<br>
+position: absolute - The position is defined by the values where the position of the element would be from the specified reference point, ex. from the left, from the top<br>
+position: fixed - The same as the absolute position, the only difference is that the object is “fixed” and will not move with the scroll action of the page.<br>
+<br>
+Offset - Allows you to set up the distance of the specified element from another element <br>
+top: Sets how far the box’s top content is offset from another element which may be the edge of the page. <br>
+right: Sets how far the box’s right content is offset from another element. <br>
+bottom: Sets how far the box’s bottom content is offset from another element. <br>
+left: Sets how far the box’s left content is offset from another element. <br>
+<br>
+Float: Lets you choose the location.<br>
+float: left The specified block element “floats” to the left and all other elements near it will float away from the block.<br>
+float: right The specified block element “floats” to the right and all other elements near it will float away from the block.<br>
+float: none This option, specified block element will take the space it requires and nothing flows to the right or left of it. The other elements will be placed below it.<br>
+<br>
+background-color:<br>
+Set color to a specific value. Ex. red<br>
+Set color in hex-notation. Ex. #ff0000<br>
+Set color in values from 0-255. Ex. RGB(255,0,0)<br>
+Set color in percentages from 0% to 100%. Ex. RGB(100%,0%,0%)<br>
+Inherit color from parent. Ex. inherit<br>
+<br>
+background-image:<br>
+Set the background to the image selected by the url. Value: url(“location”)<br>
+No background. Value: none<br>
+Background will be the same as the parent’s. Value: inherit<br>
+<br>
+background-repeat:<br>
+Repeats background (default) Value: repeat <br>
+Repeats background horizontally. Value: repeat-x<br>
+Repeats background vertically. Value: repeat-y<br>
+Do not repeat background. Value: no-repeat<br>
+Follow the parent’s repeat setting. Value: inherit<br>
+<br>
+background-position:<br>
+Position is specified by a value or percentage. Value: x y (100px, 50px or 20%, 10%)<br>
+Keyword is used to set the position on the page. Value: top left, center, bottom, right, top right, bottom center, etc.<br>
+<br>
+background-attatchment:<br>
+Background scrolls with document (default setting) Value: scroll<br>
+Follow parent’s attachment. Value: inherit<br>
+Background is steady and does not follow scroll action. Value: fixed<br>
+<br>
+Margin Property:<br>
+margin-top - defines the top margin<br>
+margin-bottom - defines the bottom margin<br>
+margin-left - defines the left margin<br>
+margin-right - defines the right margin<br>
+<br>
+You can also make borders.<br>
+<br>
+Border property:<br>
+border-width: thin<br>
+border-width: medium<br>
+border-width: thick (all sides)<br>
+border-width: <value> ex. 10px<br>
+border-width: <value> ex. 2em<br>
+border-top-width:<value> sets the top border width<br>
+border-bottom-width:<value> sets the bottom border width<br>
+border-right-width:<value> sets the right border width<br>
+border-left-width:<value> sets the left border width<br>
+<br>
+Border style property:<br>
+border-style: hidden<br>
+border-style: dotted<br>
+border-style: outset<br>
+border-style: dashed<br>
+border-style: inset<br>
+border-style: none<br>
+border-style: solid<br>
+border-style: double<br>
+border-style: groove<br>
+border-style: ridged<br>
+</p>
+<a href="Q2L7.pdf">Want to know more?</a>
+</div>
+<hr>
+<a href="index.html">Back to Navigation</a>
+<br>
+<hr>
+<p>source: ICT powerpoints by Ms. Uminga</p>
+<p>Background image citation: <a href="https://ph.pinterest.com/pin/78250112273025442/" >Pinterest Source</a></p>
+</body>
+</html>

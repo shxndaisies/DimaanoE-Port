@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Dimaano E-Portfolio</title>
+<link rel="stylesheet" href="mystyle.css" type="text/css">
+</head>
+<body>
+<hr>
+<h1>Reflection</h1>
+<hr>
+<a href="index.html">Back to Navigation</a>
+<br>
+<hr>
+I learned a lot this quarter. I found out that making a website is not limited to only HTML and that we can make it more visually appealing with the help of the Cascading Style Sheet or CSS. I realized that a website does not needto look plain or boring because CSS exists.
+<hr>
+<a href="index.html">Back to Navigation</a>
+<hr>
+<p>Background image citation: <a href="https://ph.pinterest.com/pin/78250112273025442/" >Pinterest Source</a></p>
+</body>
+</html>
